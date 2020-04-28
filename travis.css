@@ -1,0 +1,213 @@
+.ticketheader{
+    background-image: url(images/conference-hero.jpg);
+    /* opacity: 0.9; */
+    text-align: center;
+}
+.ticketimg{
+    
+    padding-top: 50px;
+    display: inline-block;
+    overflow: auto;
+    width: 20%;
+}
+a{
+    text-decoration: none;
+}
+.tp{
+color: #fff;
+}
+
+.tfooter{
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: 0px;
+    bottom: 10px;
+    left: 35%;
+    right: 30%;
+    background-color: rgb(236, 233, 233);
+    border:  #ddd solid;
+    border-left: 0px solid;
+    border-right: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    border-top: 0px;
+}
+/* css design for the index page */
+.indexheader{
+    background-image: url(images/conference-hero.jpg);
+    text-align: center;
+    height: auto;
+    width: auto;
+    margin: 0px;
+    color: #fff;
+    
+   
+
+
+}
+#list{
+    background-color: #ccc ;
+     margin-top: 0px;
+      padding: 30px; 
+    border: 1px solid rgb(187, 187, 187)
+}
+.indeximg{
+    display:inline-block;
+    padding: 5px;
+    width: 250px;
+    height: 250px;
+    
+     border: 5px solid #eee;
+    image-orientation: from-image;
+     border-radius: 100%;
+     margin-top: 50px;
+     margin-bottom: 0px;
+    
+     background-size: cover;
+}
+body{
+    background-color: #eee;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
+
+.table{
+    background-color: #bbb;
+
+}
+.footer{
+    background-color: #bbb;
+    padding-left: 1%;
+    margin: 0;
+    border:20px solid #bbb;
+}
+.day1{
+    
+    width:49%;
+    float: left;
+    
+    border-right: solid 1px #bbb;
+    border-top: solid 1px #bbb;
+}
+.day2{
+    
+   width: 49%;
+    float: right;
+    border-left: solid 1px #bbb;
+    border-top: solid 1px #bbb;
+
+}
+.img1{
+    float: left;
+    margin-right: 40px;
+}
+.img2{
+    float: left;
+    margin-right: 40px;
+}
+
+.text{
+    text-align: center;
+    letter-spacing: 1px;
+    font-family:   serif;
+    font-weight: bolder;
+}
+
+.sec{
+    display: inline-block;
+    background-color: rgb(240, 238, 238);
+    overflow: auto;
+
+}
+.tbg{
+    background-color: #ccc;
+}
+
+    table{
+        
+        text-transform: capitalize;
+        text-align: center;
+        height: 50%;
+        padding: 0px 200px 30px 200px;
+        word-spacing: 1px;
+    }
+table td,th{
+    border:30px solid  red transparent;
+    border-radius: 4px;
+    padding: 10px;
+
+}
+.tr1{
+    background-color: #aaa;
+}
+.tr2,.tr3,.tr4{
+    background-color: #eee;
+
+}
+td:hover{
+    background-color: #fff;
+    font-size: large;
+    font-weight:bolder ;
+}
+a:active{
+    font-family: cursive;
+    color: black;
+
+
+}
+.button{
+    color:#fff ;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10%;
+    background-color: rgb(109, 171, 241);
+    display: inline-block;
+    padding: 5px 30px 5px 30px;
+}
+img{
+    margin: 15px 15px 15px 40px;
+    border-radius: 100%;
+    
+}
+img:hover{
+    border: 2px solid #aaa;
+    
+}
+.img2+p{
+    padding-top: 50px;
+}
+
+.img1+p{
+    padding-top: 50px;
+}
+ 
+footer{
+    text-align: center;
+}
+/* input decorations */
+.input{
+    padding:4px;
+    width: 300px;
+    height: 30px;
+    margin: 2px;
+}
+.submit{
+    width: 90px;
+    height: auto;
+    padding: 5px;
+    background-color: rgb(109, 171, 241);
+    font-weight: bold;
+    color: #fff;
+}
+.input:active{
+    border: 4px solid #bbb;
+    background-color: #aaa;
+
+}
+
+p{
+    line-height: 1.4rem;
+}
