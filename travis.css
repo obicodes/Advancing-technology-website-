@@ -74,7 +74,7 @@ body{
 }
 
 
-.table{
+.table1{
     background-color: #bbb;
 
 }
@@ -116,6 +116,11 @@ body{
     font-weight: bolder;
 }
 
+.h3{
+    padding-top:150px 
+}
+
+
 .sec{
     display: inline-block;
     background-color: rgb(240, 238, 238);
@@ -126,7 +131,7 @@ body{
     background-color: #ccc;
 }
 
-    table{
+    table1{
         
         text-transform: capitalize;
         text-align: center;
@@ -210,4 +215,147 @@ footer{
 
 p{
     line-height: 1.4rem;
+}
+@media(max-width:768px){
+    
+    .ticketheader{
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 50%;
+        align-content: center;
+        background-image: url(images/conference-hero.jpg);
+        vertical-align: auto;
+        text-align: center;
+    }
+    .ticketimg{
+        
+        padding-top: 500px;
+        display: flex;
+        
+    }
+    .indeximgpack{
+        display: flex;
+        align-self: center;
+    }
+    img{
+        display: none;
+        float: none;
+        
+    }
+    .table1{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        
+    }
+    section{
+        display: flex;
+        float: none;
+    }
+    .day1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+        border: none;
+    
+        width: 100%;
+        padding: 0px;
+    }
+    .day2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+  
+        width: 100%;
+       border: none;
+    }
+    .indeximg{
+        display: flex;
+        margin: 0 auto;
+        height: auto;
+        
+    }
+    p{
+        padding: 0x;
+        margin-bottom: 0px;
+    }
+
+    div{
+        padding: 0px;
+        margin: 0px;
+    }
+    .footer{
+        margin-top: 10px;
+    }
+    .ul{
+        display: flex;
+        flex-basis: 30%;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        list-style-type: none;
+        justify-content: flex-end;
+        
+    }
+    
+    .ul1{
+        display: flex;
+        flex-basis: 15%;
+        flex-shrink: 1;
+    }
+    .ul2{
+        display: flex;
+        flex-basis:15%;
+        flex-shrink: 1;
+         
+         
+        
+    }
+    .navbutton,body{
+        color: rgb(20, 3, 3)
+    } 
+    body{
+        font-size: 20px;
+        font-family: cursive;
+        padding:10px 0 ;
+    }
+    #list{
+        display: flex;
+        flex-direction: column;
+          align-items: center;
+          border: 3px dotted rgb(179, 169, 172);
+        border-left: 0;
+        border-right: 0;
+        border-top: 0;
+    }
+    li strong{
+        font-weight: 900;
+        font-size: 30px;
+        padding-right: 3px;
+        
+    }
+    .ulstyle{
+        display: flex;
+        flex-direction: column;
+        flex-basis: 30%;
+        flex-grow: 0;
+        list-style: none;
+        align-items: center;
+    }
+    .whattoexpect{
+        font-size: 30px;
+    }
+    .floater{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        padding-top: 0px;
+         
+    }
+    .h3{
+        display: flex;
+         padding: 0px;
+         margin: 0%;
+    }
 }
